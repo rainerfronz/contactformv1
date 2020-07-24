@@ -1,0 +1,44 @@
+main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 100px;
+  }
+header h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+
+
+
+
+
+
+
+  @media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+    .group {
+      flex-direction: row;
+    }
+  }
