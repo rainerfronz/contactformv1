@@ -1,10 +1,9 @@
 main {
     padding: 20px 0;
+    font-family: 'Courier New', Courier, monospace;
   }
   
-  section {
-    margin-bottom: 100px;
-  }
+ 
 header h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 19px;
@@ -16,17 +15,24 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 100px;
-  }
-  
+    max-width: 700px;
+    margin: 0 auto;
+}
   .item {
     flex: 1;
     margin: 10px;
   }
   
-  .item-double {
-    flex: 2;
-    margin: 10px;
-  }
+  form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 0 8px 10px 0;
+    width: 80px;
+    background:darkgray;
+}
 
 
 
